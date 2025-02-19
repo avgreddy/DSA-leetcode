@@ -20,7 +20,7 @@ class Solution {
             int i = p.i;
             int j = p.j;
             int d = p.d;
-            dist[i][j] = d;
+            //dist[i][j] = d;
             for(int k = 0;k<4;k++){
                 int ni = i+di[k];
                 int nj = j+dj[k];
@@ -31,7 +31,7 @@ class Solution {
             }
 
         }
-        return dist;
+        return res;
     }
 }
 class Pair{
